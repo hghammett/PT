@@ -1,5 +1,7 @@
-x=false
-if x:
-  print 'x was true'
-else:
-  print 'x was false'
+x=range(10)
+for num in x:
+    if num < 9:
+        print 'num is:',num
+    else:
+        print 'all done'
+  
